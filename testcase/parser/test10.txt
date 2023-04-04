@@ -1,0 +1,11 @@
+$r = 50;
+	@flag = 'true';
+	if (@flag -eq $r == 'true' ) {
+		$y_1 = 5;
+		@flag = 'hello';
+	}
+	else {
+		$y_1 = (7.5);
+		@flag = 'goodbye';
+	writeln ('Value = ', $r, '$y_1 = ', @flag);
+	$r = $r + @flag;

@@ -1,0 +1,8 @@
+# Testing assignment statements 
+	
+$x1 = 0.5; #numeric variable
+@_y1 = 'Welcome!' ** 3;	#string variable
+@str = 'Welcome' . @_y1;
+ $z = 0.0 ;
+	
+@r_25 = 50.;

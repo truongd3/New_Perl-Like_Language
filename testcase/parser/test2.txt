@@ -1,0 +1,8 @@
+# Testing variables assignment  
+	
+$x1 = 0.5; #numeric variable
+@_y1 = 'Welcome!' 3 ;	#string variable
+@str = 'Welcome' . @_Y1;
+ $z = 0.0 ;
+	
+@r_25 = 50.;

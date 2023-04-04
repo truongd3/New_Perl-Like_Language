@@ -1,0 +1,13 @@
+$r = 50;
+	@flag = 'true';
+	#Missing right parenthesis in if-condition
+	if (@flag -eq 'true' {
+		$y_1 = 5;
+		@flag = 'hello';
+	}
+	else {
+		$y_1 = (7.5);
+		@flag = 'goodbye';
+	};
+	writeln ('Value = ', $r, '$y_1 = ', @flag);
+	$r = $r + @flag;

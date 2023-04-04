@@ -1,0 +1,33 @@
+#Clean program with nested if statements
+	$r = 50;
+	@flag = 'true';
+	if (@flag -lt 'true' ) {
+		$y_1 = 5;
+		if($y_1 > 4)
+		{
+			@flag = 'hello';
+			$y_1 = $y_1 + 1;
+		}
+		else
+		{
+			@flag = 'goodbye';
+			$y_1 = $y_1 -1;
+		};
+	}
+	else {
+		$y_1 = (7.5);
+		@flag = 'goodbye';
+		
+	};
+	writeln ('Value = ', $r ,'$y_1 = ', @flag);
+	$r = $r + @flag;
+	if($y_1 > 4)
+	{
+		@flag = 'hello';
+		$y_1 = $y_1 + 1;
+	}
+	else
+	{
+		@flag = 'goodbye';
+		$y_1 = $y_1 -1;
+	};
