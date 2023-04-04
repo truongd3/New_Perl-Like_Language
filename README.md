@@ -2,9 +2,9 @@
 *Simple Perl-Like Language by [Truong Dang](https://youtu.be/WhOarQhY8FI)*
 
 ## Contributors:
-- Truong Dang
-- Professor. 
-- Teacher Assistant.
+- [Truong Dang](https://www.linkedin.com/in/2dt/)
+- [Dr. Bassel Arafeh](https://scholar.google.com/citations?user=JYGNtvIAAAAJ&hl=en)
+- [TA. Hessamaldin Mohammadi](https://www.linkedin.com/in/hessam-mohammadi-a3633976/)
 
 ## What it does:
 
