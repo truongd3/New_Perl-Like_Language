@@ -75,7 +75,7 @@ LexItem getNextToken(istream& in, int& linenum) {
 	Token tt;
 	bool decimal = false;
 	       
-	while(in.get(ch)) {
+	while (in.get(ch)) {
 		switch (lexstate) {
 		case START:
 			if (ch == '\n') linenum++;
@@ -87,12 +87,10 @@ LexItem getNextToken(istream& in, int& linenum) {
 			if (isalpha(ch) || ch == '_') {
 				lexeme = ch;
 				lexstate = INID;
-			}
-			else if (ch == '$' && (isalpha(in.peek()) || in.peek() == '_')) {
+			} else if (ch == '$' && (isalpha(in.peek()) || in.peek() == '_')) {
 				lexeme = ch;
 				lexstate = INID;
-			}
-			else if (ch == '@' && (isalpha(in.peek()) || in.peek() == '_')) {
+			} else if (ch == '@' && (isalpha(in.peek()) || in.peek() == '_')) {
 				lexeme = ch;
 				lexstate = INID;
 			}
@@ -102,13 +100,12 @@ LexItem getNextToken(istream& in, int& linenum) {
 				lexeme += ch;
 				lexstate = INCOMMENT;
 				in.get(ch);
-			}				
-			else {
+			} else {
 				tt = ERR;
 				switch (ch) {
 				case '+':
 					tt = PLUS;
-                    break;  
+                    			break;  
 					
 				case '-':
 					lexeme = ch;
@@ -119,7 +116,7 @@ LexItem getNextToken(istream& in, int& linenum) {
 						continue;
 					}
 					tt = MINUS;
-                    break; 
+                    			break; 
 					
 				case '*':
 					nextchar = in.peek();
@@ -141,7 +138,7 @@ LexItem getNextToken(istream& in, int& linenum) {
 					
 				case '=':
 					nextchar = in.peek();
-					if(nextchar == '='){
+					if (nextchar == '='){
 						in.get(ch);
 						tt = NEQ;
 						break;
