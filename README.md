@@ -27,7 +27,6 @@
 | repetition |	{ ... } |
 | grouping |	( ... ) |
 | terminal string |	' ... ' |
-| comment |	# ... |
 | exception |	- |
 
 
