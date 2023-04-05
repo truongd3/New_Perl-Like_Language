@@ -1,0 +1,10 @@
+1. Line # 14: Missing operand after operator
+2. Line # 14: Missing expression after Left Parenthesis
+3. Line # 14: Missing operand after operator
+4. Line # 14: Missing expression after Left Parenthesis
+5. Line # 14: Missing Expression in Assignment Statement
+6. Line # 14: Incorrect Assignment Statement.
+7. Line # 14: Syntactic error in Program Body.
+8. Line # 14: Missing Program
+Unsuccessful Parsing
+Number of Syntax Errors 8
