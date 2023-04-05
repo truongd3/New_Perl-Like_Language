@@ -1,0 +1,6 @@
+1. Line # 3: Missing Right Parenthesis of If condition
+2. Line # 3: Incorrect If-Statement.
+3. Line # 3: Syntactic error in Program Body.
+4. Line # 3: Missing Program
+Unsuccessful Parsing
+Number of Syntax Errors 4
