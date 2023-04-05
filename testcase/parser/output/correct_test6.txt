@@ -1,0 +1,6 @@
+1. Line # 5: If Statement Syntax Error: Missing left brace
+2. Line # 5: Incorrect If-Statement.
+3. Line # 5: Syntactic error in Program Body.
+4. Line # 5: Missing Program
+Unsuccessful Parsing
+Number of Syntax Errors 4
