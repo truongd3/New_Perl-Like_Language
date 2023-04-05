@@ -1,0 +1,55 @@
+NIDENT($r)
+ASSOP
+ICONST(50)
+SEMICOL
+SIDENT(@flag)
+ASSOP
+SCONST(true)
+SEMICOL
+IF
+LPAREN
+SIDENT(@Flag)
+MINUS
+IDENT(seq)
+SCONST(true)
+RPAREN
+LBRACES
+NIDENT($y_1)
+ASSOP
+ICONST(5)
+SEMICOL
+RBRACES
+IDENT(Else)
+LBRACES
+NIDENT($y_1)
+ASSOP
+LPAREN
+RCONST(7.5)
+RPAREN
+SEMICOL
+RBRACES
+WRITELN
+SCONST(Value = )
+COMMA
+NIDENT($r)
+COMMA
+SCONST($y_1 = )
+COMMA
+NIDENT($Y_1)
+SEMICOL
+
+Lines: 9
+Total Tokens: 39
+Identifiers: 7
+Numbers: 3
+Strings: 3
+IDENTIFIERS:
+$Y_1, $r, $y_1, @Flag, @flag, Else, seq
+NUMBERS:
+5
+7.5
+50
+STRINGS:
+'$y_1 = '
+'Value = '
+'true'
