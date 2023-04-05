@@ -1,0 +1,7 @@
+1. Line # 13: Missing right Parenthesis after expression
+2. Line # 13: Missing Expression in Assignment Statement
+3. Line # 13: Incorrect Assignment Statement.
+4. Line # 13: Syntactic error in Program Body.
+5. Line # 13: Missing Program
+Unsuccessful Parsing
+Number of Syntax Errors 5

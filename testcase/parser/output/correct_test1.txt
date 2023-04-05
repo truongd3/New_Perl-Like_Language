@@ -1,0 +1,8 @@
+1. Line # 5: Using Undefined Variable
+2. Line # 5: Missing operand after operator
+3. Line # 5: Missing Expression in Assignment Statement
+4. Line # 5: Incorrect Assignment Statement.
+5. Line # 5: Syntactic error in Program Body.
+6. Line # 5: Missing Program
+Unsuccessful Parsing
+Number of Syntax Errors 6

@@ -1,0 +1,4 @@
+1. Line # 4: Missing semicolon at end of Statement.
+2. Line # 4: Missing Program
+Unsuccessful Parsing
+Number of Syntax Errors 2

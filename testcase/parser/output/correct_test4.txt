@@ -1,0 +1,6 @@
+1. Line # 12: Missing Left Parenthesis of Writeln Statement
+2. Line # 12: Incorrect Writeln Statement.
+3. Line # 12: Syntactic error in Program Body.
+4. Line # 12: Missing Program
+Unsuccessful Parsing
+Number of Syntax Errors 4

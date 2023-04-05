@@ -1,0 +1,6 @@
+1. Line # 3: Missing Assignment Operator
+2. Line # 3: Incorrect Assignment Statement.
+3. Line # 3: Syntactic error in Program Body.
+4. Line # 3: Missing Program
+Unsuccessful Parsing
+Number of Syntax Errors 4
