@@ -1,0 +1,8 @@
+1. Line # 11: Invalid variable name
+2. Line # 11: Syntactic error in Program Body.
+3. Line # 11: Missing Statement for Else-Clause
+4. Line # 11: Incorrect If-Statement.
+5. Line # 11: Syntactic error in Program Body.
+6. Line # 11: Missing Program
+Unsuccessful Parsing
+Number of Syntax Errors 6
