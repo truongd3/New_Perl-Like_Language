@@ -1,16 +1,15 @@
 #include <iostream>
 #include <fstream>
 
-#include "lex.h"
-#include "parser.h"
+#include "parserInt.h"
 
 using namespace std;
 
-int main(int argc, char *argv[]){
-  int lineNumber = 1;
+int main(int argc, char *argv[]) {
+	int lineNumber = 1;
 	istream *in = NULL;
 	ifstream file;
-
+		
 	for (int i = 1; i < argc; i++) {
 		string arg = argv[i];
 		if (in != NULL) {
@@ -29,8 +28,8 @@ int main(int argc, char *argv[]){
 		cerr << "Missing File Name." << endl;
 		return 0;
 	}
-  bool status = Prog(*in, lineNumber);
-  if (!status) cout << "Unsuccessful Parsing" << endl << "Number of Syntax Errors " << ErrCount() << endl;
-  else cout << "Successful Parsing" << endl;
-  return 0;
+	
+    	bool status = Prog(*in, lineNumber);
+    	if (!status) cout << "\nUnsuccessful Interpretation " << endl << "Number of Errors " << ErrCount()  << endl;
+	else cout << "\nSuccessful Execution" << endl;
 }
