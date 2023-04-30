@@ -1,0 +1,12 @@
+Invalid conversion from string to double.
+1. Line # 8: Illegal opernad type for the operation.
+2. Line # 8: Missing Expression in Assignment Statement
+3. Line # 8: Incorrect Assignment Statement.
+4. Line # 8: Syntactic error in Program Body.
+5. Line # 8: Missing Statement for If-Stmt Clause
+6. Line # 8: Incorrect If-Statement.
+7. Line # 9: Syntactic error in Program Body.
+8. Line # 9: Missing Program
+
+Unsuccessful Interpretation
+Number of Errors 8
