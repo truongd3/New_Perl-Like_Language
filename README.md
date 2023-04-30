@@ -96,12 +96,21 @@
 | 5 |	<, >, -gt, -lt | - Numeric Relational<br> - String Relational | no cascading |
 | 6 |	==, -eq | - Numeric Equality<br> - String Equality | no cascading |
 
-## Hot it works
+### Interpreter
 
-## How it is built:
+- Implement `Value` class member functions and overloaded operators from `val.h`
+
+- The **interpreter** provides:
+  - Perform syntax analysis of the input source code statement by statement, then execute the stamte if there is no error.
+  - Build information of variables types in the symbol table for all defined variables.
+  - Evaluate expressions and determine values and types.
+
+## How it's built:
+
+- Coding language: C++
+- Libraries/Frameworks: `string`, `queue`, `map`, `iomanip`, `stdexcept`, `cmath`, `sstream`, and `iostream`
 
 ## How to run:
-- Clone this repo to your local IDE (VSCode).
-- 
 
-## Technology: 
+- Clone this repo to your local IDE (VSCode).
+- Run `program.cpp` by command line (including the testcase file name).
