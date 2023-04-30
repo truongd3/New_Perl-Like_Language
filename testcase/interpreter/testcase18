@@ -1,0 +1,16 @@
+#Testing mixed operand types for string relational operation 
+	$r = 2;
+	$x = 3.0;
+	@str = 'false';
+	
+	if(@str -gt $x)
+	{
+		@str = 'true';
+	}
+	else
+	{
+		@str = 'Good';
+	};
+	
+	writeln ( $x, ' ', @str);
+		

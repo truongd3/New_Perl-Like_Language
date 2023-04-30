@@ -1,0 +1,9 @@
+#Testing mixed mode assignment operation to a string variable
+	$r = 2;
+	$x = 3.0;
+	@str = 'false';
+	
+	@str = $x / $r * $x; 
+	
+	writeln ( $x, ' ', @str);
+		

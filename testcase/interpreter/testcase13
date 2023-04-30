@@ -1,0 +1,10 @@
+# Testing string repeat and catenation operators 
+	
+$x1 = 0.5; #numeric variable
+@_y1 = 'Welcome!' ** 3.5;	#string variable
+@str = 'Hello ' . @_y1;
+$z = 0.0 ;
+	
+@r_25 = 50.;
+writeln ($x1, ' ', @r_25, ' ', @_y1, ' ', @str);
+   

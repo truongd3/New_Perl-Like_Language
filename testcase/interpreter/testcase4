@@ -1,0 +1,8 @@
+#Illegal exponentiation operation 
+	
+    $r = 5;
+	$x = 3.0;
+	
+    $y = $r + $r ^ 'Wow';
+	writeln ( $r, ' ', $y);
+		

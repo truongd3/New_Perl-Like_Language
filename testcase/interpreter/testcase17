@@ -1,0 +1,29 @@
+#Clean Program: Solving a quadratic equation
+	$a = 2;
+	$b = 7;
+	$c = 3;
+	$disc = $b * $b - 4 * $a * $c;
+	writeln('Discriminant= ', $disc);
+	if ($disc < 0)
+	{
+		writeln('There are no real roots.');
+	}
+	else 
+	{
+		if($disc == 0)
+		{
+			$x = -$b/(2 * $a);
+			writeln ('One real root:', $x);
+		}
+	
+		else
+		{
+			$x1 = (-$b + $disc ^ 0.5)/(2 * $a);
+			$x2 = (-$b - $disc ^ 0.5)/(2 * $a);
+			writeln('Two real roots:');
+			writeln('x1 = ', $x1, '; ', 'x2 = ', $x2);
+		};
+	};
+	
+	writeln('Goodby!!');
+	

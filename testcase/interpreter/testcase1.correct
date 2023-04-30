@@ -1,0 +1,9 @@
+Invalid conversion from string to double.
+1. Line # 4: Illegal operand type for the operation.
+2. Line # 4: Missing Expression in Assignment Statement
+3. Line # 4: Incorrect Assignment Statement.
+4. Line # 4: Syntactic error in Program Body.
+5. Line # 4: Missing Program
+
+Unsuccessful Interpretation
+Number of Errors 5

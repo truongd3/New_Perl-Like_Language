@@ -1,0 +1,10 @@
+# Testing illegal string repeat operation 
+	
+$x1 = 0.5; #numeric variable
+@_y1 = 'Welcome!' ** 'Hello';	#string variable
+@str = 'Hello ' . @_y1;
+$z = 0.0 ;
+	
+@r_25 = 50.;
+writeln ($x1, ' ', @r_25, ' ', @_y1, ' ', @str);
+   

@@ -1,0 +1,9 @@
+#Unrecognized input pattern 
+	$r = 2;
+	$x = 3.0;
+		
+	
+    $y = $x / $r * $ + $x ; 
+	
+	writeln ( $x, ' ', $y);
+		

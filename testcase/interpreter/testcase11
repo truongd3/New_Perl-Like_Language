@@ -1,0 +1,8 @@
+#Illegal operand type for the operation 
+	$r = 2;
+	$x = 3.0;
+		
+	$y = $x / $r * $x + ($x > $r); 
+	
+	writeln ( $x, ' ', $y);
+		

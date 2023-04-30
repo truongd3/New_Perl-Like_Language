@@ -1,0 +1,14 @@
+#Illegal operand for the sign operation
+	$r = 50;
+	@flag = 'true';
+	if (@flag -eq 'true') {
+		$y_1 = $r * 5;
+		@flag = -'hello';
+	}
+	else {
+		$y_1 = (7.5);
+		@flag = 'goodbye';
+	};
+	writeln ( $y_1, ' ', @flag);
+	$r = $r + $y_1;
+	

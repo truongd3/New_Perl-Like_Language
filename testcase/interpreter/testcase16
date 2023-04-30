@@ -1,0 +1,7 @@
+#Testing exponentiation operation 
+	$r = 2;
+	$x = 3.0;
+	$y = $r + $r ^ $x ^ 2 ;
+	
+	writeln ( $r, ' ', $y);
+		

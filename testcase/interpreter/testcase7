@@ -1,0 +1,9 @@
+#Illegal mixed mode assignment operation to a numeric variable
+	$r = 2;
+	$x = 3.0;
+	@str = 'false';
+	
+	$r = @str;
+	
+	writeln ( $x, ' ', @str);
+		
