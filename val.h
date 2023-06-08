@@ -284,7 +284,7 @@ public:
         return Value();
     }
 
-	//numeric overloaded greater than operator of this with op
+    //numeric overloaded greater than operator of this with op
     Value operator>(const Value& op) const {
         double oper1, oper2;
         if (GetType() == op.GetType()) {
@@ -340,8 +340,8 @@ public:
         return Value();
     }
 
-	//numeric overloaded less than operator of this with op
-	Value operator<(const Value& op) const {
+    //numeric overloaded less than operator of this with op
+    Value operator<(const Value& op) const {
         double oper1, oper2;
         if (GetType() == op.GetType()) {
             if (IsInt()) return Value(Itemp < op.GetInt());
@@ -396,7 +396,7 @@ public:
         return Value();
     }
 	
-	//Numeric exponentiation operation this raised to the power of op 
+    //Numeric exponentiation operation this raised to the power of op 
     Value operator^(const Value& oper) const {
         if (GetType() == oper.GetType()){
             if (IsInt()) return Value(pow(Itemp, oper.GetInt()));
@@ -408,7 +408,7 @@ public:
         return Value();
     }
 	
-	//string concatenation operation of this with op
+    //string concatenation operation of this with op
     Value Catenate(const Value& oper) const {
         string oper1, oper2;
         if (IsErr() || oper.IsErr()) return Value();
@@ -453,6 +453,7 @@ public:
         for (int i = 0; i < times; i++) repeatedStr += str;
         return repeatedStr;
     }
+	
     //string repetition operation of this with op
     Value Repeat(const Value& oper) const {
         string oper_1 = "", oper_2 = "";
@@ -546,7 +547,7 @@ public:
         return Value();
     }
 
-	//string equality (-eq) operator of this with op
+    //string equality (-eq) operator of this with op
     Value SEqual(const Value& oper) const{
         string oper_1 = "", oper_2 = "";
         if (GetType() == oper.GetType()){//Might not work
@@ -596,8 +597,8 @@ public:
         }
     }
 
-	//string greater than (-gt) operator of this with op
-	Value SGthan(const Value& oper) const {
+    //string greater than (-gt) operator of this with op
+    Value SGthan(const Value& oper) const {
         if (IsErr() || oper.IsErr()) return Value();
         string oper1, oper2;
         if (IsString() && oper.IsString()) {
@@ -636,7 +637,7 @@ public:
         return Value(oper1 > oper2);
     }
 
-	//string less than operator of this with op
+    //string less than operator of this with op
     Value SLthan(const Value& oper) const {
         if (IsErr() || oper.IsErr()) return Value();
         string oper1, oper2;
