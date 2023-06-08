@@ -2,11 +2,10 @@
 #define PARSEINT_H_
 
 #include <iostream>
-
-using namespace std;
-
 #include "lex.h"
 #include "val.h"
+
+using namespace std;
 
 extern bool Prog(istream& in, int& line);
 extern bool StmtList(istream& in, int& line);
