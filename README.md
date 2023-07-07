@@ -1,5 +1,5 @@
 # New Perl-Like Language
-*Simple Perl-Like Language by [Truong Dang](https://youtu.be/WhOarQhY8FI)*
+*New Simple Perl-Like Language by [Truong Dang](https://youtu.be/WhOarQhY8FI)*
 
 ## Contributors:
 - [Truong Dang](https://www.linkedin.com/in/2dt/)
