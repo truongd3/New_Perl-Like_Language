@@ -105,7 +105,7 @@ LexItem getNextToken(istream& in, int& linenum) {
 				switch (ch) {
 				case '+':
 					tt = PLUS;
-                    			break;  
+                    break;  
 					
 				case '-':
 					lexeme = ch;
@@ -116,7 +116,7 @@ LexItem getNextToken(istream& in, int& linenum) {
 						continue;
 					}
 					tt = MINUS;
-                    			break; 
+                    break; 
 					
 				case '*':
 					nextchar = in.peek();

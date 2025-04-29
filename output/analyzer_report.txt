@@ -1,0 +1,48 @@
+Date & Time: 2025/04/28, 16:48:42
+Files Processed: 19
+Total CPU Runtime: 0.000518 seconds
+Average CPU Runtime: 2.72632e-05 seconds
+---------------------------------------------------
+
+Date & Time: 2025/04/28, 17:00:44
+Files Processed: 38
+Total CPU Runtime: 0.002114 seconds
+Average CPU Runtime: 5.56316e-05 seconds
+---------------------------------------------------
+
+Date & Time: 2025/04/28, 17:03:16
+Files Processed: 1
+Total CPU Runtime: 8.4e-05 seconds
+Average CPU Runtime: 8.4e-05 seconds
+---------------------------------------------------
+
+Date & Time: 2025/04/28, 17:22:42
+Files Processed: 19
+Total CPU Runtime: 0.001543 seconds
+Average CPU Runtime: 8.12105e-05 seconds
+---------------------------------------------------
+
+Date & Time: 2025/04/28, 18:09:10
+Files Processed: 38
+Total CPU Runtime: 0.000765 seconds
+Average CPU Runtime: 2.01316e-05 seconds
+---------------------------------------------------
+
+Date & Time: 2025/04/28, 19:26:35
+Files Processed: 38
+Total CPU Runtime: 0.001217 seconds
+Average CPU Runtime: 3.20263e-05 seconds
+---------------------------------------------------
+
+Date & Time: 2025/04/28, 19:53:43
+Files Processed: 50
+Total CPU Runtime: 0.001383 seconds
+Average CPU Runtime: 2.766e-05 seconds
+---------------------------------------------------
+
+Date & Time: 2025/04/28, 20:04:30
+Files Processed: 50
+Total CPU Runtime: 0.00161 seconds
+Average CPU Runtime: 3.22e-05 seconds
+---------------------------------------------------
+

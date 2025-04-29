@@ -1,0 +1,13 @@
+# Testing exponentiation operation 
+$x = 3.0;
+$r = 2;
+$y = $r - $r ^ $x ^ 3 ;
+	
+writeln ( $r, ' ', $y);
+
+$r = 4;
+$x = 1.0;
+$y = $r - $r ^ $x ^ 2 ;
+	
+writeln ( $r, ' ', $x);
+writeln ( $y);	

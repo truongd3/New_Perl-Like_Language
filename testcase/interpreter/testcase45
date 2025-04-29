@@ -1,0 +1,22 @@
+
+$x = 3.0;
+
+$r = 2;
+
+$y = $r - $r ^ $x ^ 3 ;
+	
+writeln ( $r, ' ', $y);
+
+$r = 4;
+$x = 1.0;
+$y = $r - $r ^ $x ^ 2 ;
+	
+writeln ( $r, ' ', $x);
+writeln ( $y);	
+
+
+$a = 4;
+$b = 1.0;
+$c = $a - $b ^ $a + 2 ;
+writeln ( $a, ' ', $b);
+writeln ( $c);

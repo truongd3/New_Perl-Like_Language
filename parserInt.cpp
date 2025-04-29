@@ -539,20 +539,16 @@ bool PrimaryExpr(istream& in, int& line, int sign, Value & retVal) {
 		if (tok == NIDENT) retVal = ValueResults[lexeme] * Value(sign); // numeric variable
 		else retVal = ValueResults[lexeme]; // recall value to retVal
 		return true;
-	}
-	else if (tok == ICONST) {
+	} else if (tok == ICONST) {
 		retVal = Value(sign * stoi(tok.GetLexeme()));
     	return true;
-	}
-	else if (tok == SCONST) {
+	} else if (tok == SCONST) {
 		retVal = Value(tok.GetLexeme());
 		return true;
-	}
-	else if (tok == RCONST) {
+	} else if (tok == RCONST) {
 		retVal = Value(sign * stod(tok.GetLexeme()));
 		return true;
-	}
-	else if (tok == LPAREN) {
+	} else if (tok == LPAREN) {
     	Value out;
 		bool ex = Expr(in, line, out);
 		if (!ex) {
@@ -568,8 +564,7 @@ bool PrimaryExpr(istream& in, int& line, int sign, Value & retVal) {
 			ParseError(line, "Missing right Parenthesis after expression");
 			return false;
 		}
-	}
-	else if (tok.GetToken() == ERR) {
+	} else if (tok.GetToken() == ERR) {
 		ParseError(line, "Unrecognized Input Pattern");
 		cout << "(" << tok.GetLexeme() << ")" << endl;
 		return false;

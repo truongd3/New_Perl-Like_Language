@@ -29,7 +29,9 @@ int main(int argc, char *argv[]) {
 		return 0;
 	}
 	
-    	bool status = Prog(*in, lineNumber);
-    	if (!status) cout << "\nUnsuccessful Interpretation " << endl << "Number of Errors " << ErrCount()  << endl;
+    bool status = Prog(*in, lineNumber);
+	if (!status) cout << "\nUnsuccessful Interpretation " << endl << "Number of Errors " << ErrCount()  << endl;
 	else cout << "\nSuccessful Execution" << endl;
+
+	return 0;
 }

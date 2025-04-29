@@ -1,0 +1,16 @@
+$r = 20;
+@flag = 'false';
+	
+if (@flag -eq 'true') {
+	$y_1 = $r * 5;
+	$r = $r + 20;
+	@flag = 'hello';
+}
+else {
+	$y_1 = (7.5);
+	@flag = 'goodbye';
+};
+
+writeln ( $y_1, ' ', $r);
+
+writeln (@flag);

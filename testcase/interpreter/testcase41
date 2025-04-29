@@ -1,0 +1,15 @@
+$r = 2;
+@str = 'false';
+$x = 3.5;
+	
+	if(@str -gt $x)
+	{
+		@str = 'The if condition is true';
+	}
+	else
+	{
+		@str = 'Good';
+	};
+	
+writeln ( $r, ' ', @str);
+		

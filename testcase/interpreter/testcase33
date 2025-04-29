@@ -1,0 +1,16 @@
+#Missing operand after operator
+	$r = 50;
+	$x = 6;
+	$y = +8;
+	@flag = 'true';
+	if (@flag -eq 'true') {
+		$y_1 = -5;
+		@flag = 'hello' . $y_1 * 4;
+	}
+	else {
+		$y_1 = -(7.5);
+		@flag = 'goodbye';
+	};
+	$res = ($r * ($y + * $x)) / $y - $x;
+	writeln ('Value = ', $r ^ (3 * 2) ^ $x, '$y_1 = ', @flag);
+	$r = $r + @flag;

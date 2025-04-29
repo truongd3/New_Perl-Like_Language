@@ -4,7 +4,7 @@
 ## Contributors:
 - [Truong Dang](https://www.linkedin.com/in/2dt/)
 - [Dr. Bassel Arafeh](https://scholar.google.com/citations?user=JYGNtvIAAAAJ&hl=en)
-- [TA. Hessamaldin Mohammadi](https://www.linkedin.com/in/hessam-mohammadi-a3633976/)
+- [Hessamaldin Mohammadi](https://www.linkedin.com/in/hessam-mohammadi-a3633976/)
 
 ## Language Definition:
 
@@ -105,12 +105,25 @@
   - Build information of variables types in the symbol table for all defined variables.
   - Evaluate expressions and determine values and types.
 
-## How it's built:
+## Tech Stack
 
-- Coding language: C++
-- Libraries/Frameworks: `string`, `queue`, `map`, `iomanip`, `stdexcept`, `cmath`, `sstream`, and `iostream`
+- Coding language: C++ (version 11+)
+- Libraries/Frameworks: `string`, `queue`, `map`, `iomanip`, `stdexcept`, `cmath`, `sstream`, `iostream`, `ctime`, `iomanip`, `filesystem`
 
-## How to run:
+## How to Run:
 
-- Clone this repo to your local IDE (VSCode).
-- Run `program.cpp` by command line (including the testcase file name).
+- Clone this repo to your local IDE (VSCode)
+
+### Regular Testing
+
+```bash
+g++ -std=c++11 problem.cpp parserInt.cpp lex.cpp -o problem
+```
+
+### Analyze Running
+
+```bash
+g++ -std=c++11 analyzer.cpp parserInt.cpp lex.cpp -o analyzer
+```
+
+Then navigate [output/analyzer_report.txt](output/analyzer_report.txt) to see the updated result.
